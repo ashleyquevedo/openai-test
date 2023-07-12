@@ -26,7 +26,7 @@ MISC_DESC = "an array of information from the resume that does not fit into the 
 
 
 # class init includes optional variables to help define functions passed to AI conversation
-# .parse method takes a string, which should be derived from a resume,
+# .parse method takes a string, which should be derived from a resume, and returns a JSON
 class OpenAIResumeParser:
     def __init__(
         self,
