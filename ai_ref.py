@@ -12,7 +12,8 @@ import os
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from termcolor import colored
 
-OPENAI_KEY = "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"
+# temp
+OPENAI_KEY = "INSERT KEY HERE"
 GPT_MODEL = "gpt-3.5-turbo-0613"
 
 
